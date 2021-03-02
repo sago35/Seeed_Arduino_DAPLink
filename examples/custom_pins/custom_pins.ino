@@ -112,7 +112,7 @@ void setup() {
     SWCLKPin.setPin(A8);
     TDIPin.setPin(A5);
     TDOPin.setPin(A4);
-    nRESETPin.setPin(A0);
+    nRESETPin.setPin(A10);
 
     pinMode(LED_BUILTIN, OUTPUT);
     
